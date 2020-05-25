@@ -15,6 +15,75 @@
     <link href="css/custom.css" rel="stylesheet">
   </head>
   <body>
-
+    <h1 class="cartHeading"> Shopping Cart </h1>
+    <hr>
+    <div class="container mainCart">
+      <div class="row">
+          <div class="col-md-3">  
+             <p>Salmon</p>
+          </div>
+          <div class="col-md-3">
+             <p class="individualPrice">60.00</p>
+          </div>
+          <div class="col-md-3"> 
+            <label>QTY</label>
+              <input class="input qty" type="number" value="1">
+              <button class="delete">Delete</button>
+          </div>
+          <div class="col-md-3">
+            <p class="total" type="number"></p>
+          </div>
+       </div>
+       <div class="row">
+        <div class="col-md-3">  
+           <p>Tuna</p>
+        </div>
+        <div class="col-md-3">
+           <p class="individualPrice">50.00</p>
+        </div>
+        <div class="col-md-3"> 
+          <label>QTY</label>
+            <input type="number" class="qty" value="1">
+            <button class="delete">Delete</button>
+        </div>
+        <div class="col-md-3">
+          <p class="total" type="number"></p>
+        </div>
+     </div>
+     <div class="row">
+      <div class="col-md-3">  
+         <p>Carp</p>
+      </div>
+      <div class="col-md-3">
+         <p class="individualPrice">40.00</p>
+      </div>
+      <div class="col-md-3"> 
+        <label>QTY</label>
+          <input type="number" class="qty" value="1">
+          <button class="delete">Delete</button>
+      </div>
+      <div class="col-md-3">
+        <p class="total" type="number"></p>
+      </div>
+    </div>
+   </div>
+   <div class="container">
+    <div class="row">
+      <div class="col-md-3 item">  
+        <input type="text">
+      </div>
+      <div class="col-md-3 newPrice">
+        <input type="number">
+      </div>
+      <div class="col-md-3"> 
+          <button class="create">Create</button>
+      </div>
+    
+    </div>
+   </div>
+      <button type="button" class="btn btn-success calculate">Calculate Prices</button>
+      <hr>
+      <h1 class="cartHeading">Total Price:</h1>
+      <h1 class="cartHeading totalCalc"></h1>
   </body>
 </html>
